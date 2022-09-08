@@ -1,0 +1,31 @@
+@use "../main.scss" as *;
+
+// .navbar {
+//   background: lightblue;
+// }
+img {
+  width: 10rem;
+}
+
+.ms-auto{
+  color: #000 !important;
+  font-family: $font;
+  font-weight: 700;
+}
+
+// .list-item {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   flex-direction: column;
+//   color: #000000 !important;
+//   font-family: $font;
+//   font-weight: 700;
+// }
+
+.btn {
+  background: #ff473e;
+  border: none;
+  border-radius: 1rem;
+  color: #000000;
+}
