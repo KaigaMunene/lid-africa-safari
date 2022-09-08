@@ -16,7 +16,6 @@
 
 ### The challenge
 
-
 ### Screenshot
 
 ### Links
@@ -26,7 +25,6 @@
 ## My process
 
 ### Built with
-
 
 ### How to run Sass without using watch sass
 
