@@ -1,7 +1,13 @@
-import NavbarComponent from "../../Components/NavBarComponent/NavbarComponent";
+import Carousel from "../../Components/CarouselComponent";
+import Navbar from "../../Components/Navbar";
 
 const home = () => {
-  return <NavbarComponent />;
+  return (
+    <section>
+      <Navbar />
+      <Carousel />
+    </section>
+  );
 };
 
 export default home;

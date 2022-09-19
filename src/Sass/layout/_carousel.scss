@@ -1,0 +1,23 @@
+@use "../main.scss" as *;
+
+.carousel-item {
+    width: 100vw;
+    height: auto;
+    object-fit: contain;
+    max-height: 100vh;
+  }
+
+.carousel-caption{
+    top:40%;
+    h1{
+        color: #ffffffb3;
+        font-size: 3rem;
+    }
+}
+
+button {
+    display: none;
+}
+
+
+  
