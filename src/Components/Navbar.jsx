@@ -1,8 +1,8 @@
 import { Container, Navbar, Nav, NavLink } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import publicLinks from "../../Constants/link";
-import "../../Sass/layout/_navbar.scss";
-import pic from "../../Assets/Images/logo.svg";
+import publicLinks from "../Constants/link";
+import "../Sass/layout/_navbar.scss";
+import pic from "../Assets/Images/logo.svg";
 
 function NavbarComponent() {
   return (
@@ -15,8 +15,8 @@ function NavbarComponent() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <NavLink to={publicLinks.home}>Home</NavLink>
-            <NavLink href={publicLinks.aboutUs}>About us</NavLink>
-            <NavLink to={publicLinks.ourTours}>Our Tours</NavLink>
+            <NavLink to={publicLinks.aboutUs}>About us</NavLink>
+            <Nav.Link to={publicLinks.ourTours}>Our Tours</Nav.Link>
           </Nav>
           <Nav className="ms-auto">
             <button className="btn btn-success" type="button">
