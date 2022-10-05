@@ -4,6 +4,7 @@ import publicLinks from "./link";
 
 const Home = React.lazy(() => import("../Pages/Home/home"));
 const About = React.lazy(() => import("../Pages/AboutUs/aboutUs"));
+const Contact = React.lazy(() => import("../Pages/ContactUs/contactUs"));
 const publicRoutes = () => {
   return (
     <Router>
@@ -11,6 +12,7 @@ const publicRoutes = () => {
         <Routes>
           <Route path={publicLinks.home} element={<Home />} />
           <Route path={publicLinks.aboutUs} element={<About />} />
+          <Route path={publicLinks.contactUs} element={<Contact />} />
         </Routes>
       </Suspense>
     </Router>

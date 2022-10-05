@@ -1,4 +1,5 @@
-import { Container, Navbar, Nav, NavLink } from "react-bootstrap";
+import { Container, Navbar, Nav } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import publicLinks from "../Constants/link";
 import "../Sass/layout/_navbar.scss";
@@ -16,11 +17,11 @@ function NavbarComponent() {
           <Nav className="ms-auto">
             <NavLink to={publicLinks.home}>Home</NavLink>
             <NavLink to={publicLinks.aboutUs}>About us</NavLink>
-            <Nav.Link to={publicLinks.ourTours}>Our Tours</Nav.Link>
+            <NavLink to={publicLinks.ourTours}>Our Tours</NavLink>
           </Nav>
           <Nav className="ms-auto">
             <button className="btn btn-success" type="button">
-              contact us
+              <NavLink to={publicLinks.contactUs}>contact us</NavLink>
             </button>
           </Nav>
         </Navbar.Collapse>
